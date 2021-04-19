@@ -1,0 +1,40 @@
+16-Apr-2021 13:47:38.715 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+16-Apr-2021 13:47:38.856 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+16-Apr-2021 13:47:38.887 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+16-Apr-2021 13:47:38.887 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+16-Apr-2021 15:58:02.820 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.65
+16-Apr-2021 15:58:02.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 12:28:40 UTC
+16-Apr-2021 15:58:02.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.65.0
+16-Apr-2021 15:58:02.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+16-Apr-2021 15:58:02.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+16-Apr-2021 15:58:02.911 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+16-Apr-2021 15:58:02.912 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Java\jre1.8.0_181
+16-Apr-2021 15:58:02.912 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+16-Apr-2021 15:58:02.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+16-Apr-2021 15:58:02.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\tomcat
+16-Apr-2021 15:58:02.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\tomcat
+16-Apr-2021 15:58:02.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\tomcat
+16-Apr-2021 15:58:02.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\tomcat
+16-Apr-2021 15:58:02.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\tomcat\temp
+16-Apr-2021 15:58:02.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2021 15:58:02.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\tomcat\conf\logging.properties
+16-Apr-2021 15:58:02.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       exit
+16-Apr-2021 15:58:02.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       abort
+16-Apr-2021 15:58:02.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xms128m
+16-Apr-2021 15:58:02.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xmx256m
+16-Apr-2021 15:58:02.919 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\tomcat\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jre1.8.0_181\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\Git\cmd;D:\Program Files\MATLAB\R2021a\bin;"c:\jdk\bin;";C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+16-Apr-2021 15:58:03.899 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+16-Apr-2021 15:58:04.272 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Apr-2021 15:58:04.295 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2811 ms
+16-Apr-2021 15:58:04.379 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+16-Apr-2021 15:58:04.379 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.65]
+16-Apr-2021 15:58:04.393 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\docs]
+16-Apr-2021 15:58:04.881 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\docs]的部署已在[482]毫秒内完成
+16-Apr-2021 15:58:04.882 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\manager]
+16-Apr-2021 15:58:04.951 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\manager]的部署已在[69]毫秒内完成
+16-Apr-2021 15:58:04.951 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\r]
+16-Apr-2021 15:58:04.994 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\r]的部署已在[43]毫秒内完成
+16-Apr-2021 15:58:04.995 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\ROOT]
+16-Apr-2021 15:58:05.025 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\ROOT]的部署已在[31]毫秒内完成
+16-Apr-2021 15:58:05.034 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+16-Apr-2021 15:58:05.054 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 758 ms

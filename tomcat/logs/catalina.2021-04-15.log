@@ -1,0 +1,10 @@
+15-Apr-2021 09:22:41.134 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/WebContent]
+15-Apr-2021 09:23:01.173 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\WebContent]
+15-Apr-2021 09:23:01.556 信息 [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+15-Apr-2021 09:23:01.588 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\WebContent]的部署已在[415]毫秒内完成
+15-Apr-2021 16:57:38.461 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/WebContent]
+15-Apr-2021 16:57:38.712 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\r]
+15-Apr-2021 16:57:38.874 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\r]的部署已在[162]毫秒内完成
+15-Apr-2021 19:04:03.197 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/r]
+15-Apr-2021 19:04:13.297 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\r]
+15-Apr-2021 19:04:13.374 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\r]的部署已在[81]毫秒内完成

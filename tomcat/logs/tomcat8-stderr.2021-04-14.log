@@ -1,0 +1,96 @@
+
+2021-04-14 16:12:49 Apache Commons Daemon procrun stderr initialized.
+14-Apr-2021 16:12:50.528 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.65
+14-Apr-2021 16:12:50.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 12:28:40 UTC
+14-Apr-2021 16:12:50.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.65.0
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Java\jre1.8.0_181
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\tomcat
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\tomcat
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\tomcat
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\tomcat
+14-Apr-2021 16:12:50.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\tomcat\temp
+14-Apr-2021 16:12:50.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2021 16:12:50.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\tomcat\conf\logging.properties
+14-Apr-2021 16:12:50.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       exit
+14-Apr-2021 16:12:50.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       abort
+14-Apr-2021 16:12:50.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xms128m
+14-Apr-2021 16:12:50.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xmx256m
+14-Apr-2021 16:12:50.546 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\tomcat\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jre1.8.0_181\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\Git\cmd;D:\Program Files\MATLAB\R2021a\bin;"c:\jdk\bin;";C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+14-Apr-2021 16:12:50.816 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+14-Apr-2021 16:12:51.047 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Apr-2021 16:12:51.059 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 969 ms
+14-Apr-2021 16:12:51.096 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+14-Apr-2021 16:12:51.097 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.65]
+14-Apr-2021 16:12:51.104 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\docs]
+14-Apr-2021 16:12:51.305 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\docs]的部署已在[197]毫秒内完成
+14-Apr-2021 16:12:51.305 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\manager]
+14-Apr-2021 16:12:51.337 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\manager]的部署已在[32]毫秒内完成
+14-Apr-2021 16:12:51.337 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\ROOT]
+14-Apr-2021 16:12:51.351 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\ROOT]的部署已在[14]毫秒内完成
+14-Apr-2021 16:12:51.353 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+14-Apr-2021 16:12:51.360 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 301 ms
+14-Apr-2021 16:33:22.866 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\WebContent]
+14-Apr-2021 16:33:23.250 信息 [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Apr-2021 16:33:23.280 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\WebContent]的部署已在[414]毫秒内完成
+14-Apr-2021 18:01:05.745 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+14-Apr-2021 18:01:06.421 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+14-Apr-2021 18:01:06.556 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+14-Apr-2021 18:01:06.574 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+
+2021-04-14 18:02:36 Apache Commons Daemon procrun stderr initialized.
+14-Apr-2021 18:02:37.167 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.65
+14-Apr-2021 18:02:37.172 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 12:28:40 UTC
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.65.0
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Java\jre1.8.0_181
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+14-Apr-2021 18:02:37.173 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\tomcat
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\tomcat
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\tomcat
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\tomcat
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\tomcat\temp
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\tomcat\conf\logging.properties
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       exit
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       abort
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xms128m
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xmx256m
+14-Apr-2021 18:02:37.174 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\tomcat\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jre1.8.0_181\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\Git\cmd;D:\Program Files\MATLAB\R2021a\bin;"c:\jdk\bin;";C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+14-Apr-2021 18:02:37.366 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+14-Apr-2021 18:02:37.663 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Apr-2021 18:02:37.675 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1057 ms
+14-Apr-2021 18:02:37.721 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+14-Apr-2021 18:02:37.721 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.65]
+14-Apr-2021 18:02:37.730 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\docs]
+14-Apr-2021 18:02:37.979 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\docs]的部署已在[246]毫秒内完成
+14-Apr-2021 18:02:37.979 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\manager]
+14-Apr-2021 18:02:38.018 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\manager]的部署已在[39]毫秒内完成
+14-Apr-2021 18:02:38.018 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\ROOT]
+14-Apr-2021 18:02:38.035 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\ROOT]的部署已在[16]毫秒内完成
+14-Apr-2021 18:02:38.035 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\WebContent]
+14-Apr-2021 18:02:38.423 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Apr-2021 18:02:38.469 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\WebContent]的部署已在[434]毫秒内完成
+14-Apr-2021 18:02:38.471 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+14-Apr-2021 18:02:38.479 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 803 ms
+15-Apr-2021 09:22:41.134 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/WebContent]
+15-Apr-2021 09:23:01.173 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\WebContent]
+15-Apr-2021 09:23:01.556 信息 [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+15-Apr-2021 09:23:01.588 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\WebContent]的部署已在[415]毫秒内完成
+15-Apr-2021 16:57:38.461 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/WebContent]
+15-Apr-2021 16:57:38.712 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\r]
+15-Apr-2021 16:57:38.874 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\r]的部署已在[162]毫秒内完成
+15-Apr-2021 19:04:03.197 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/r]
+15-Apr-2021 19:04:13.297 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\tomcat\webapps\r]
+15-Apr-2021 19:04:13.374 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\tomcat\webapps\r]的部署已在[81]毫秒内完成
+16-Apr-2021 13:47:38.715 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+16-Apr-2021 13:47:38.856 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+16-Apr-2021 13:47:38.887 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+16-Apr-2021 13:47:38.887 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]

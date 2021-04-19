@@ -1,0 +1,2187 @@
+19-Apr-2021 14:45:45.130 严重 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/r的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法在web.xml或使用此应用程序部署的jar文件中解析绝对uri：[http://java.sun.com/jsp/jstl/core]
+	org.apache.jasper.JasperException: 无法在web.xml或使用此应用程序部署的jar文件中解析绝对uri：[http://java.sun.com/jsp/jstl/core]
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:55)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:294)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:81)
+		at org.apache.jasper.compiler.TagLibraryInfoImpl.generateTldResourcePath(TagLibraryInfoImpl.java:251)
+		at org.apache.jasper.compiler.TagLibraryInfoImpl.<init>(TagLibraryInfoImpl.java:122)
+		at org.apache.jasper.compiler.Parser.parseTaglibDirective(Parser.java:431)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:489)
+		at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1445)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:144)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parse(ParserController.java:105)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:203)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 14:45:51.137 严重 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/r的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法在web.xml或使用此应用程序部署的jar文件中解析绝对uri：[http://java.sun.com/jsp/jstl/core]
+	org.apache.jasper.JasperException: 无法在web.xml或使用此应用程序部署的jar文件中解析绝对uri：[http://java.sun.com/jsp/jstl/core]
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:55)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:294)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:81)
+		at org.apache.jasper.compiler.TagLibraryInfoImpl.generateTldResourcePath(TagLibraryInfoImpl.java:251)
+		at org.apache.jasper.compiler.TagLibraryInfoImpl.<init>(TagLibraryInfoImpl.java:122)
+		at org.apache.jasper.compiler.Parser.parseTaglibDirective(Parser.java:431)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:489)
+		at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1445)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:144)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parse(ParserController.java:105)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:203)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 15:13:57.796 严重 [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 15:34:05.733 严重 [http-nio-8080-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 15:36:44.291 严重 [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类
+	java.lang.IllegalArgumentException: 页面指令：import 值无效
+		at org.apache.jasper.compiler.Node$PageDirective.validateImport(Node.java:618)
+		at org.apache.jasper.compiler.Node$PageDirective.addImport(Node.java:599)
+		at org.apache.jasper.compiler.Parser.parsePageDirective(Parser.java:366)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:478)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 15:38:29.397 严重 [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类
+	java.lang.IllegalArgumentException: 页面指令：import 值无效
+		at org.apache.jasper.compiler.Node$PageDirective.validateImport(Node.java:618)
+		at org.apache.jasper.compiler.Node$PageDirective.addImport(Node.java:599)
+		at org.apache.jasper.compiler.Parser.parsePageDirective(Parser.java:366)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:478)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:10:53.796 严重 [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [16] 行发生了一个错误
+DBHelper cannot be resolved to a type
+13: </head>
+14: <body>
+15: 	<%
+16: 	DBHelper dbHelper = new DBHelper();
+17: 
+18: 	String id = request.getParameter("id");
+19: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [40] 行发生了一个错误
+Student cannot be resolved to a type
+37: 		return;
+38: 	}
+39: 
+40: 	Student student = new Student();
+41: 	if(dbHelper.getStudentById(id) != null){
+42: 	%>
+43: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:11:26.772 严重 [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类
+	java.lang.IllegalArgumentException: 页面指令：import 值无效
+		at org.apache.jasper.compiler.Node$PageDirective.validateImport(Node.java:618)
+		at org.apache.jasper.compiler.Node$PageDirective.addImport(Node.java:599)
+		at org.apache.jasper.compiler.Parser.parsePageDirective(Parser.java:366)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:478)
+		at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1797)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:141)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:21:28.550 严重 [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [17] 行发生了一个错误
+DBHelper cannot be resolved to a type
+14: </head>
+15: <body>
+16: 	<%
+17: 	DBHelper dbHelper = new DBHelper();
+18: 
+19: 	String id = request.getParameter("id");
+20: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [17] 行发生了一个错误
+DBHelper cannot be resolved to a type
+14: </head>
+15: <body>
+16: 	<%
+17: 	DBHelper dbHelper = new DBHelper();
+18: 
+19: 	String id = request.getParameter("id");
+20: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [41] 行发生了一个错误
+Student cannot be resolved to a type
+38: 		return;
+39: 	}
+40: 
+41: 	Student student = new Student();
+42: 	if(dbHelper.getStudentById(id) != null){
+43: 	%>
+44: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [41] 行发生了一个错误
+Student cannot be resolved to a type
+38: 		return;
+39: 	}
+40: 
+41: 	Student student = new Student();
+42: 	if(dbHelper.getStudentById(id) != null){
+43: 	%>
+44: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [17] 行发生了一个错误
+DBHelper cannot be resolved to a type
+14: </head>
+15: <body>
+16: 	<%
+17: 	DBHelper dbHelper = new DBHelper();
+18: 
+19: 	String id = request.getParameter("id");
+20: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [17] 行发生了一个错误
+DBHelper cannot be resolved to a type
+14: </head>
+15: <body>
+16: 	<%
+17: 	DBHelper dbHelper = new DBHelper();
+18: 
+19: 	String id = request.getParameter("id");
+20: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [41] 行发生了一个错误
+Student cannot be resolved to a type
+38: 		return;
+39: 	}
+40: 
+41: 	Student student = new Student();
+42: 	if(dbHelper.getStudentById(id) != null){
+43: 	%>
+44: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [41] 行发生了一个错误
+Student cannot be resolved to a type
+38: 		return;
+39: 	}
+40: 
+41: 	Student student = new Student();
+42: 	if(dbHelper.getStudentById(id) != null){
+43: 	%>
+44: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:27:03.803 严重 [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+在生成的java文件中的第：[17]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import javaBean cannot be resolved
+
+在生成的java文件中的第：[17]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Syntax error on token "/", . expected
+
+在生成的java文件中的第：[18]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import javaBean cannot be resolved
+
+在生成的java文件中的第：[18]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Syntax error on token "/", . expected
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+在生成的java文件中的第：[17]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import javaBean cannot be resolved
+
+在生成的java文件中的第：[17]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Syntax error on token "/", . expected
+
+在生成的java文件中的第：[18]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import javaBean cannot be resolved
+
+在生成的java文件中的第：[18]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Syntax error on token "/", . expected
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:28:32.168 严重 [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:30:23.189 严重 [http-nio-8080-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+在生成的java文件中的第：[17]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. javaBean.DBHelper resolves to a package
+
+在生成的java文件中的第：[18]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. javaBean.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [23] 行发生了一个错误
+DBHelper cannot be resolved to a type
+20: </head>
+21: <body>
+22: 	<%
+23: 	DBHelper dbHelper = new DBHelper();
+24: 
+25: 	String id = request.getParameter("id");
+26: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [23] 行发生了一个错误
+DBHelper cannot be resolved to a type
+20: </head>
+21: <body>
+22: 	<%
+23: 	DBHelper dbHelper = new DBHelper();
+24: 
+25: 	String id = request.getParameter("id");
+26: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [47] 行发生了一个错误
+Student cannot be resolved to a type
+44: 		return;
+45: 	}
+46: 
+47: 	Student student = new Student();
+48: 	if(dbHelper.getStudentById(id) != null){
+49: 	%>
+50: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [47] 行发生了一个错误
+Student cannot be resolved to a type
+44: 		return;
+45: 	}
+46: 
+47: 	Student student = new Student();
+48: 	if(dbHelper.getStudentById(id) != null){
+49: 	%>
+50: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+在生成的java文件中的第：[17]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. javaBean.DBHelper resolves to a package
+
+在生成的java文件中的第：[18]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. javaBean.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [23] 行发生了一个错误
+DBHelper cannot be resolved to a type
+20: </head>
+21: <body>
+22: 	<%
+23: 	DBHelper dbHelper = new DBHelper();
+24: 
+25: 	String id = request.getParameter("id");
+26: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [23] 行发生了一个错误
+DBHelper cannot be resolved to a type
+20: </head>
+21: <body>
+22: 	<%
+23: 	DBHelper dbHelper = new DBHelper();
+24: 
+25: 	String id = request.getParameter("id");
+26: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [47] 行发生了一个错误
+Student cannot be resolved to a type
+44: 		return;
+45: 	}
+46: 
+47: 	Student student = new Student();
+48: 	if(dbHelper.getStudentById(id) != null){
+49: 	%>
+50: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [47] 行发生了一个错误
+Student cannot be resolved to a type
+44: 		return;
+45: 	}
+46: 
+47: 	Student student = new Student();
+48: 	if(dbHelper.getStudentById(id) != null){
+49: 	%>
+50: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:37:48.401 严重 [http-nio-8080-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:42:23.419 严重 [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:43:02.212 严重 [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import DBHelper cannot be resolved
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import Student cannot be resolved
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import DBHelper cannot be resolved
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import Student cannot be resolved
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 16:43:22.656 严重 [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. DBHelper.java resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import Student cannot be resolved
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. DBHelper.java resolves to a package
+
+在生成的java文件中的第：[16]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+The import Student cannot be resolved
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [21] 行发生了一个错误
+DBHelper cannot be resolved to a type
+18: </head>
+19: <body>
+20: 	<%
+21: 	DBHelper dbHelper = new DBHelper();
+22: 
+23: 	String id = request.getParameter("id");
+24: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [45] 行发生了一个错误
+Student cannot be resolved to a type
+42: 		return;
+43: 	}
+44: 
+45: 	Student student = new Student();
+46: 	if(dbHelper.getStudentById(id) != null){
+47: 	%>
+48: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 19:36:12.780 严重 [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 19:36:37.563 严重 [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+	org.apache.jasper.JasperException: 无法为JSP编译类: 
+
+在生成的java文件中的第：[14]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.util.DBHelper resolves to a package
+
+在生成的java文件中的第：[15]行发生错误：[C:\tomcat\work\Catalina\localhost\jsp-work\org\apache\jsp\register_jsp.java]
+Only a type can be imported. com.acring.pojo.Student resolves to a package
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [20] 行发生了一个错误
+DBHelper cannot be resolved to a type
+17: </head>
+18: <body>
+19: 	<%
+20: 	DBHelper dbHelper = new DBHelper();
+21: 
+22: 	String id = request.getParameter("id");
+23: 	String password = request.getParameter("password");
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+JSP文件：[/register.jsp] 的第 [44] 行发生了一个错误
+Student cannot be resolved to a type
+41: 		return;
+42: 	}
+43: 
+44: 	Student student = new Student();
+45: 	if(dbHelper.getStudentById(id) != null){
+46: 	%>
+47: 		<div class="container">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:544)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 19:41:25.553 严重 [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/register.jsp (行.: [9], 列: [0]) useBean:重复的bean名称：[{0}]
+	org.apache.jasper.JasperException: /register.jsp (行.: [9], 列: [0]) useBean:重复的bean名称：[{0}]
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:115)
+		at org.apache.jasper.compiler.Validator$ValidateVisitor.visit(Validator.java:647)
+		at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1186)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Validator.validateExDirectives(Validator.java:1857)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:221)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 19:42:57.048 严重 [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/register.jsp (行.: [9], 列: [0]) 非法的scope属性值：[session2]（必须是page、request、session或application中的一个）
+	org.apache.jasper.JasperException: /register.jsp (行.: [9], 列: [0]) 非法的scope属性值：[session2]（必须是page、request、session或application中的一个）
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:115)
+		at org.apache.jasper.compiler.JspUtil.checkScope(JspUtil.java:105)
+		at org.apache.jasper.compiler.Validator$ValidateVisitor.visit(Validator.java:638)
+		at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1186)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Validator.validateExDirectives(Validator.java:1857)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:221)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+19-Apr-2021 19:43:14.169 严重 [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke 在路径为/jsp-work的上下文中，Servlet[jsp]的Servlet.service（）引发了具有根本原因的异常/register.jsp (行.: [8], 列: [0]) useBean类属性[com.acring.util.DBHelper]的值无效。
+	org.apache.jasper.JasperException: /register.jsp (行.: [8], 列: [0]) useBean类属性[com.acring.util.DBHelper]的值无效。
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:115)
+		at org.apache.jasper.compiler.Generator$GenerateVisitor.visit(Generator.java:1383)
+		at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1186)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Generator.generate(Generator.java:3601)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:254)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:382)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:201)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
